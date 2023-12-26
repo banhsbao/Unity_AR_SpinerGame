@@ -1,0 +1,500 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/huynh/Desktop/game maker/Spinner_MultiplayerARGAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60732
+Successfully changed project path to: C:/Users/huynh/Desktop/game maker/Spinner_MultiplayerARGAME
+C:/Users/huynh/Desktop/game maker/Spinner_MultiplayerARGAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17000] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3438252870 [EditorId] 3438252870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3BIJIUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17000] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3438252870 [EditorId] 3438252870 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3BIJIUV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/huynh/Desktop/game maker/Spinner_MultiplayerARGAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010279 seconds.
+- Loaded All Assemblies, in  0.271 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 467ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3543.
+Memory consumption went from 122.1 MB to 122.1 MB.
+Total: 3.173700 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.744100 ms  DeleteObjects: 0.169400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3543.
+Memory consumption went from 73.7 MB to 73.7 MB.
+Total: 2.749000 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.129400 ms MarkObjects: 2.364400 ms  DeleteObjects: 0.032600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8132.883736 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ab6801a59d2611b4eb43b2e0c0311bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ab6801a59d2611b4eb43b2e0c0311bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17618b4d0cfc7a44c90fc32db39bdfe') in 0.004532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.855375 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.281275 seconds.
+  path: Assets/Scenes/Scene_Gameplay.unity
+  artifactKey: Guid(4dbbe6e84ff2c514d92e5c90a30c23d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Gameplay.unity using Guid(4dbbe6e84ff2c514d92e5c90a30c23d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ca0fa33bf92aab8aae8b3a27b0ffef') in 0.000827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.058047 seconds.
+  path: Assets/Scenes/Scene_Loading.unity
+  artifactKey: Guid(943f6139fa75e76479b37f37a963962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Loading.unity using Guid(943f6139fa75e76479b37f37a963962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb3b341871cb4b41dd5ecaf62d26114') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.180020 seconds.
+  path: Assets/Scenes/Scene_Lobby.unity
+  artifactKey: Guid(440fab74dfb736d46908c287bf83005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Lobby.unity using Guid(440fab74dfb736d46908c287bf83005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b76c890b8f8771ef061d53db36aff2') in 0.000361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.548162 seconds.
+  path: Assets/Scenes/Scene_PlayerSelection.unity
+  artifactKey: Guid(ea015e6ac42fe3a4caeb69f71c131a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_PlayerSelection.unity using Guid(ea015e6ac42fe3a4caeb69f71c131a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1918a1ea296ee0659e7d86013ed0960e') in 0.000375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 52.022135 seconds.
+  path: Assets/Resources/Player1_Attacker.prefab
+  artifactKey: Guid(13c092cb75032fe4997cd193efa999d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player1_Attacker.prefab using Guid(13c092cb75032fe4997cd193efa999d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'c851c998e70e10ac90b4f97bc627b269') in 0.513795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 325
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Player3_Defender.prefab
+  artifactKey: Guid(70b38378b7c9bea41a50a87f132e7b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Player3_Defender.prefab using Guid(70b38378b7c9bea41a50a87f132e7b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '786584d548e7ee1095c9ccefff1a05ba') in 0.053681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 46.325705 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(707e6c60332cc3b48a64909e72127894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(707e6c60332cc3b48a64909e72127894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0a17a3355e95a9e6458e16719aae99') in 0.000559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.276209 seconds.
+  path: Assets/Prefabs/DeathPanel.prefab
+  artifactKey: Guid(0367e5d2c0c49da4b80c7fe1c169056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeathPanel.prefab using Guid(0367e5d2c0c49da4b80c7fe1c169056c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae1359d76c9a4eb3220c5c7db69e16a') in 0.003433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.397979 seconds.
+  path: Assets/Models/Beystadium.FBX
+  artifactKey: Guid(09481e66f1d2643459cbdfb15767a2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Beystadium.FBX using Guid(09481e66f1d2643459cbdfb15767a2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1a429e879021239408e0dad815867e') in 0.041510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.719231 seconds.
+  path: Assets/Materials/BackgroundMat.mat
+  artifactKey: Guid(97a6fa5967843274fb0d7a868168e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BackgroundMat.mat using Guid(97a6fa5967843274fb0d7a868168e2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8319b67fbd2beb577276eb87387e012') in 0.013693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/TrailMaterial.mat
+  artifactKey: Guid(15d533410d50b3a44a6626a51d114771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/TrailMaterial.mat using Guid(15d533410d50b3a44a6626a51d114771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9ee947c5aa235f924f6c6879fd7c8') in 0.172865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.442579 seconds.
+  path: Assets/Fonts/ethnocentric rg.ttf
+  artifactKey: Guid(fc76f944702d372449f68129a076dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/ethnocentric rg.ttf using Guid(fc76f944702d372449f68129a076dd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d536d53f3c3623f94c5824b9bc5e2b') in 0.023963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fonts/SharpsGF SDF.asset
+  artifactKey: Guid(39dd1e70615df63438e3b3ba764c6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/SharpsGF SDF.asset using Guid(39dd1e70615df63438e3b3ba764c6e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f62ec9127414b62d75ed4bfabb38f084') in 0.060405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.209458 seconds.
+  path: Assets/UI/Background_Blurred 1.png
+  artifactKey: Guid(13570e62eba6d8e4ba408a60bf90e4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Background_Blurred 1.png using Guid(13570e62eba6d8e4ba408a60bf90e4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311ad8332c142f2d093d2583a8259c3c') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Underglow_Blue 1.png
+  artifactKey: Guid(4eae06f2ed904d14e97ba03c825b1dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Underglow_Blue 1.png using Guid(4eae06f2ed904d14e97ba03c825b1dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ea558e194f26ee3d26318801087f58') in 0.015663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 185.841269 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Metalparts_Attacker1_Mat.mat
+  artifactKey: Guid(ec4cda87c99cd3d4fbd0dddd5092fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Metalparts_Attacker1_Mat.mat using Guid(ec4cda87c99cd3d4fbd0dddd5092fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5451e0de197eb07d1674589e41e88d91') in 0.024254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_Normal.png
+  artifactKey: Guid(66e8611a0ed28ff4490ff476737fc400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_Normal.png using Guid(66e8611a0ed28ff4490ff476737fc400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fda67d9308e271e8da4c5a239e5b52') in 0.034591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_Blades_MetallicSmoothness.png
+  artifactKey: Guid(c51acc4e9ec0fd54db8ac36c219e750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_Blades_MetallicSmoothness.png using Guid(c51acc4e9ec0fd54db8ac36c219e750c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f904f6a745bb8f5ba087dab26bb5b') in 0.017835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerBody_AlbedoTransparency.png
+  artifactKey: Guid(cc25f5900008e814380cd53c2f819c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerBody_AlbedoTransparency.png using Guid(cc25f5900008e814380cd53c2f819c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd537745986c9427d7614a88862f80737') in 0.016914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_MetallicSmoothness.png
+  artifactKey: Guid(3a59f9c97bad383458b92e8f61daf866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_MetallicSmoothness.png using Guid(3a59f9c97bad383458b92e8f61daf866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559716488ba1f5d1d18e059d5a6708e6') in 0.020400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerBody_Normal.png
+  artifactKey: Guid(8322b00d7ca551b4684f0567c3fdff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerBody_Normal.png using Guid(8322b00d7ca551b4684f0567c3fdff4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd994ac4b9b95ef05d9849da947235475') in 0.018544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_Blades_Normal.png
+  artifactKey: Guid(f3b887b69ff88ec40bd560f5684ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_Blades_Normal.png using Guid(f3b887b69ff88ec40bd560f5684ba013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98519d6f573a615c00ddf7ab128bea08') in 0.021199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/SpinnerBody_Attacker1_Mat.mat
+  artifactKey: Guid(869fe3f7f76ca0343b1fda830bcf07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/SpinnerBody_Attacker1_Mat.mat using Guid(869fe3f7f76ca0343b1fda830bcf07f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd164b2b5aa10208a8e49bf276ebacc0b') in 0.022025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_AlbedoTransparency.png
+  artifactKey: Guid(4695d2d82feb7344fa8351d58e1f706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_SpinnerShell_AlbedoTransparency.png using Guid(4695d2d82feb7344fa8351d58e1f706e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b5a66aff2bf9fd4e9ef2188518185') in 0.019019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_MetalParts_AlbedoTransparency.png
+  artifactKey: Guid(90a9f1c5bf9a5fc4cb88ae28889b69b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/Spinner_Attacker_01_MetalParts_AlbedoTransparency.png using Guid(90a9f1c5bf9a5fc4cb88ae28889b69b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8015490a4085e66aff2b2f1dab16f5ab') in 0.016725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/SpinnerShell_Attacker1_Mat.mat
+  artifactKey: Guid(a8a8b0af718dd464e9982d8343253053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_02/SpinnerShell_Attacker1_Mat.mat using Guid(a8a8b0af718dd464e9982d8343253053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa5be8d08c59a0249bb1b3aee07b695') in 0.029055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.133721 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Metalparts_Attacker1_Mat.mat
+  artifactKey: Guid(81bef3edcf6855f40882c94ebc9177ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Metalparts_Attacker1_Mat.mat using Guid(81bef3edcf6855f40882c94ebc9177ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210e8daba71a9ebb980500a3a89d3831') in 0.020889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerBody_MetallicSmoothness.png
+  artifactKey: Guid(66922e2f79f2b7047bd37f2758718473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerBody_MetallicSmoothness.png using Guid(66922e2f79f2b7047bd37f2758718473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6eb9976f6f0762e23fd4e96a9d6b239') in 0.015482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/SpinnerShell_Attacker1_Mat.mat
+  artifactKey: Guid(0e3e4a0f374c9704eaf99c35b1a08551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/SpinnerShell_Attacker1_Mat.mat using Guid(0e3e4a0f374c9704eaf99c35b1a08551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef3c3f6a165ba3f797d83963bfa8b10') in 0.020909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerShell_Normal.png
+  artifactKey: Guid(0244f86d317ba5f458d82dd67635d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerShell_Normal.png using Guid(0244f86d317ba5f458d82dd67635d13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4fcffc44c381c655d8b661a72090f3') in 0.020467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/SpinnerBody_Attacker1_Mat.mat
+  artifactKey: Guid(679e1fa38c680a14fa6dac44b40dec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/SpinnerBody_Attacker1_Mat.mat using Guid(679e1fa38c680a14fa6dac44b40dec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c5e0b254188c1f0912d7008e89c060') in 0.022219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerShell_AlbedoTransparency.png
+  artifactKey: Guid(4c25f52043acefd40bde06f3246164ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerShell_AlbedoTransparency.png using Guid(4c25f52043acefd40bde06f3246164ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bb4a34127a8034f470e48c61b0c313') in 0.024419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01.prefab
+  artifactKey: Guid(7a21e79c256cb774aa7b7aad3fe982af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01.prefab using Guid(7a21e79c256cb774aa7b7aad3fe982af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185eead736413c84af25c3e73738239d') in 0.046805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerBody_Normal.png
+  artifactKey: Guid(fd511cdff06b0fa44846bd358e96dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SpinnerTop 3D Models/Spinner_Attacker_01/Spinner_Attacker_01_SpinnerBody_Normal.png using Guid(fd511cdff06b0fa44846bd358e96dff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee37eca0f1fa9adca48b5e9627f661a6') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
